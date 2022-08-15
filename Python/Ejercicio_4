@@ -1,0 +1,4 @@
+a=input ("Como te llamas? ")
+for i in range(5):
+  print(i)
+  print ("HOLA", a)

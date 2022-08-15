@@ -1,0 +1,6 @@
+#Este programa suma 2 numeros dados
+
+a=int (input ("Introduzca el 1er número: "))
+b=int (input ("Introduzca el 2do número: "))
+suma = a+b
+print (suma)

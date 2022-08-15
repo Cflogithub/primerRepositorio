@@ -1,0 +1,2 @@
+variable = input ("!HOLA MUNDO!")
+print variable
