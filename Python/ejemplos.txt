@@ -1,0 +1,69 @@
+1111320H# Python 3: Fibonacci series up to n
+>>> def fib(n):
+>>>     a, b = 0, 1
+>>>     while a < n:
+>>>         print(a, end=' ')
+>>>         a, b = b, a+b
+>>>     print()
+>>> fib(1000)
+
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+_______________________________________________
+# Python 3: List comprehensions
+>>> fruits = ['Banana', 'Apple', 'Lime']
+>>> loud_fruits = [fruit.upper() for fruit in fruits]
+>>> print(loud_fruits)
+['BANANA', 'APPLE', 'LIME']
+
+# List and the enumerate function
+>>> list(enumerate(fruits))
+[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]
+
+__________________________________________________
+
+# Python 3: Simple arithmetic
+>>> 1 / 2
+0.5
+>>> 2 ** 3
+8
+>>> 17 / 3  # classic division returns a float
+5.666666666666667
+>>> 17 // 3  # floor division
+5
+______________________________________________________
+
+# For loop on a list
+>>> numbers = [2, 4, 6, 8]
+>>> product = 1
+>>> for number in numbers:
+...    product = product * number
+... 
+>>> print('The product is:', product)
+The product is: 384
+_______________________________________________________
+
+# Python 3: Simple output (with Unicode)
+>>> print("Hello, I'm Python!")
+Hello, I'm Python!
+
+# Input, assignment
+>>> name = input('What is your name?\n')
+>>> print('Hi, %s.' % name)
+What is your name?
+Python
+Hi, Python.
+____________________________________________________
+
+# For loop on a list
+>>> numbers = [2, 4, 6, 8]
+>>> product = 1
+>>> for number in numbers:
+...    product = product * number
+... 
+>>> print('The product is:', product)
+The product is: 384
+__________________________________________________
+
+
+
+
