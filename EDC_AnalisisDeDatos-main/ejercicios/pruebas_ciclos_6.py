@@ -1,0 +1,12 @@
+print("¡Hola mundo!")
+print("¡Hola mundo!")
+print("¡Hola mundo!")
+pregunta = input("¿Quieres pasar por if? y/n")
+pregunta2= input("¿Estas seguro? y/n")
+if(pregunta == "y" and pregunta2 == "y"): # operador relacional
+    print("¡Hola mundo desde if")
+    print("¡Hola mundo desde if")
+    print("¡Hola mundo desde if")
+print("¡Hola mundo!")
+print("¡Hola mundo!")
+print("¡Adios mundo!")
